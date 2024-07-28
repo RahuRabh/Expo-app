@@ -20,28 +20,47 @@ This is a React Native application developed using Expo. The app is designed to 
 
 1. Clone the repository:
 
->>   git clone https://github.com/yourusername/your-repo-name.git
->>   cd your-repo-name
+ git clone https://github.com/yourusername/your-repo-name.git
+ cd your-repo-name
 
-Install dependencies:
+2. Install dependencies:
 
->>   npm install
+ npm install
 
-Start the Expo development server:
+3. Start the Expo development server:
 
->>   npx expo start
+ npx expo start
 
 Project Structure
 
-    components/: Contains all the React Native components used in the app.
-        Home.js: The main component for the home page.
-        ConfirmationModal.js: A modal component for user confirmation.
+1. components/: Contains all the React Native components used in the app.
+   
+    Home.js: The main component for the home page.
+    
+    ConfirmationModal.js: A modal component for user confirmation.
+    
     navigation/: Contains the navigation configuration.
-        Navigation.js: The main navigation container with bottom tab navigation.
+    
+    Navigation.js: The main navigation container with bottom tab navigation.
+    
     dataUtils.js: Contains sample data used in the app.
 
 Usage
 
-    Home Page: The main entry point of the app, displaying various sections and navigation.
-    Trending Now: Scroll horizontally to view trending sports events.
-    IPL Teams: View the list of IPL teams and interact with the Yes/No buttons to trigger the confirmation modal.
+   Home Page: The main entry point of the app, displaying various sections and navigation.
+
+   Trending Now: Scroll horizontally to view trending sports events.
+    
+   IPL Teams: View the list of IPL teams and interact with the Yes/No buttons to trigger the confirmation modal.
+
+Below are the instructions on how you can check my work -
+
+iOS (Apple Device)
+Open App Store and install 'expo go' application
+
+App Store(Android Device)
+Open Play Store and install 'expo' application
+
+When you open the app - you will be asked to scan the qr code .
+
+https://expo.dev/preview/update?message=homePage%20with%20yes%2Fno%20card%20done&updateRuntimeVersion=1.0.0&createdAt=2024-07-28T17%3A26%3A18.243Z&slug=exp&projectId=d2efcf74-9ed6-4552-9fc1-9d023a1180ad&group=06934fa6-255a-453f-8309-e77884723b3c
